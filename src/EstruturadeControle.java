@@ -1,7 +1,7 @@
 public class EstruturadeControle {
     public static void main(String[] args) {
 
-
+        int numero = 7;
         int nota1 = 2;
         int nota2 = 10;
         int nota3 = 9;
@@ -20,6 +20,35 @@ public class EstruturadeControle {
         if(media < 6 || numeroFaltas > 20 ) {
             System.out.println("Reprovado");
         }
+
+
+
+        if(media >= 6 && numeroFaltas <= 20 ){
+            System.out.println("aprovado");
+        } else {
+            System.out.println("Reprovado");
+        }
+
+
+        if(media < 6 || numeroFaltas > 20 ) {
+            System.out.println("Reprovado");
+        }else {
+            System.out.println("Aprovado");
+        }
+
+
+        String resultado =  (numero % 2 == 0)? "Par" : "Impar";
+
+        System.out.println("O numero " + numero + " é " + resultado);
+
+
+
+
+
+
+
+
+
 
 
     }
